@@ -21,8 +21,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="196">
+              <caret line="15" column="113" lean-forward="true" selection-start-line="15" selection-start-column="113" selection-end-line="15" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -39,6 +39,7 @@
       <find>port</find>
       <find>if (!module.parent) {</find>
       <find>server</find>
+      <find>mongodb://</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -539,7 +540,7 @@
       <workItem from="1504957476084" duration="1424000" />
       <workItem from="1504958916075" duration="2611000" />
       <workItem from="1504962747557" duration="11308000" />
-      <workItem from="1504986165534" duration="2053000" />
+      <workItem from="1504986165534" duration="2193000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawa zależności do poprawnego działania aplikacji">
       <created>1504971844904</created>
@@ -674,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504987267006</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change mongoose.connect set">
+      <created>1504988321211</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1504988321211</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17396000" />
+    <option name="totallyTimeSpent" value="17536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -755,7 +763,8 @@
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b root" />
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b correct" />
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b add port" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set mongoDB: heroku_s3vn5v6b add port" />
+    <MESSAGE value="Change mongoose.connect set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change mongoose.connect set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1260,8 +1269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="196">
+          <caret line="15" column="113" lean-forward="true" selection-start-line="15" selection-start-column="113" selection-end-line="15" selection-end-column="113" />
           <folding />
         </state>
       </provider>

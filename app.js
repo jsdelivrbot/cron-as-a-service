@@ -12,8 +12,8 @@ var CronTab = require('./lib/cronTab');
 var Job     = require('./models/job');
 
 // configure mongodb
-// mongoose.connect('mongodb://' + config.mongodb.user + ':' + config.mongodb.password + '@' + config.mongodb.server +':' + config.mongodb.port +'/' + config.mongodb.database);
-mongoose.connect('mongodb://heroku_s3vn5v6b:t9rerk01m7469mo8u4p6tjanq1@ds163561.mlab.com:63561/heroku_s3vn5v6b');
+mongoose.connect('mongodb://' + config.mongodb.user + ':' + config.mongodb.password + '@' + config.mongodb.server +':' + config.mongodb.database);
+// mongoose.connect('mongodb://heroku_s3vn5v6b:t9rerk01m7469mo8u4p6tjanq1@ds163561.mlab.com:63561/heroku_s3vn5v6b');
 mongoose.connection.on('error', function (err) {
   console.error('MongoDB error: ' + err.message);
   console.error('Make sure a mongoDB server is running and accessible by this application');

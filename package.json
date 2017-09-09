@@ -6,10 +6,10 @@
   "engines": {
     "node": ">=0.6"
   },
-  "main": "/app/api/index.js",
+  "main": "app/api/index.js",
   "scripts": {
-    "start": "/app/api/node index.js",
-    "test": "/app/api/node test.js"
+    "start": "app/api/node index.js",
+    "test": "app/api/node test.js"
   },
   "repository": {
     "type": "git",

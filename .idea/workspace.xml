@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/config/default.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -538,7 +538,7 @@
       <workItem from="1504957476084" duration="1424000" />
       <workItem from="1504958916075" duration="2611000" />
       <workItem from="1504962747557" duration="11308000" />
-      <workItem from="1504986165534" duration="499000" />
+      <workItem from="1504986165534" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawa zależności do poprawnego działania aplikacji">
       <created>1504971844904</created>
@@ -652,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504986556837</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Set mongoDB: heroku_s3vn5v6b root">
+      <created>1504986671562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1504986671562</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15842000" />
+    <option name="totallyTimeSpent" value="16298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -730,7 +737,8 @@
     <MESSAGE value="Change Procfile" />
     <MESSAGE value="Add var port = process.env.PORT || 3000;" />
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set mongoDB: heroku_s3vn5v6b" />
+    <MESSAGE value="Set mongoDB: heroku_s3vn5v6b root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set mongoDB: heroku_s3vn5v6b root" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -955,7 +963,7 @@
     <entry file="file://$PROJECT_DIR$/config/default.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>

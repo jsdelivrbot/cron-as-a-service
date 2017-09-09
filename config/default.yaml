@@ -1,7 +1,7 @@
 mongodb:
   server:   localhost
   database: cron
-  user:     root 
+  user:     root
   password:
 
 server:

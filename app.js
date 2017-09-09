@@ -2,6 +2,7 @@
  * Remote cron service
  */
 var path     = require('path');
+const fs = require('fs');
 var config   = require('config');
 var mongoose = require('mongoose');
 var express  = require('express');
@@ -66,7 +67,7 @@ app.use('/api', require('./app/api'));
 app.use('/web', require('./app/web'));
 
 // load plugins
-path.exists('./plugins/index.js', function(exists) {
+fs.exists('./plugins/index.js', function(exists) {
   if (exists) {
     require('./plugins').init(app, config, mongoose);
   };

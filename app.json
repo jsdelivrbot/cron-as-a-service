@@ -1,0 +1,8 @@
+{
+  "name": "Cron As A Service - start on Heroku: Node.js",
+  "description": "Cron As A Service",
+  "repository": "https://github.com/mpietrewicz/cron-as-a-service",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

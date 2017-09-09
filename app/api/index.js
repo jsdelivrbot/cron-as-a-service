@@ -1,6 +1,7 @@
 /**
  * Module dependencies.
  */
+var port = process.env.PORT || 3000;
 var express    = require('express');
 var app = module.exports = express.createServer();
 
@@ -84,7 +85,5 @@ app.get('/', function(req, res) {
   res.json(routes);
 });
 
-if (!module.parent) {
-  app.listen(3000);
-  console.log('Express started on port 3000');
-}
+app.listen(port);
+console.log('Express started on port ' + port);

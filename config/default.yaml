@@ -1,8 +1,8 @@
 mongodb:
-  server:   localhost
-  database: cron
-  user:     root
-  password:
+  server:   ds163561.mlab.com:63561
+  database: heroku_s3vn5v6b
+  user:     heroku_s3vn5v6b
+  password: heroku_s3vn5v6b
 
 server:
   port:     5000

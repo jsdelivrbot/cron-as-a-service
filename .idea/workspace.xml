@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8bb0f91-52c8-47c0-a055-c819e9695108" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -551,7 +550,7 @@
       <updated>1504957474419</updated>
       <workItem from="1504957476084" duration="1424000" />
       <workItem from="1504958916075" duration="2611000" />
-      <workItem from="1504962747557" duration="7884000" />
+      <workItem from="1504962747557" duration="8110000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawa zależności do poprawnego działania aplikacji">
       <created>1504971844904</created>
@@ -602,15 +601,22 @@
       <option name="project" value="LOCAL" />
       <updated>1504977150233</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change Procfile">
+      <created>1504977997300</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504977997300</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11919000" />
+    <option name="totallyTimeSpent" value="12145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -655,7 +661,8 @@
     <MESSAGE value="Modified package.json" />
     <MESSAGE value="Modified package.json &quot;/&quot;" />
     <MESSAGE value="Change node version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change node version" />
+    <MESSAGE value="Change Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Procfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

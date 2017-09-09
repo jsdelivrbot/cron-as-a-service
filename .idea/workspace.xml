@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8bb0f91-52c8-47c0-a055-c819e9695108" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/default.yaml" afterPath="$PROJECT_DIR$/config/default.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/default.yaml">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="208">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -38,6 +38,7 @@
       <find>coo</find>
       <find>port</find>
       <find>if (!module.parent) {</find>
+      <find>server</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,9 +66,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/api/index.js" />
         <option value="$PROJECT_DIR$/config/default.yaml" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -538,7 +539,7 @@
       <workItem from="1504957476084" duration="1424000" />
       <workItem from="1504958916075" duration="2611000" />
       <workItem from="1504962747557" duration="11308000" />
-      <workItem from="1504986165534" duration="1092000" />
+      <workItem from="1504986165534" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawa zależności do poprawnego działania aplikacji">
       <created>1504971844904</created>
@@ -666,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504987152547</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Set mongoDB: heroku_s3vn5v6b add port">
+      <created>1504987267006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1504987267006</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16435000" />
+    <option name="totallyTimeSpent" value="17396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -684,7 +692,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60771704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60771704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -692,6 +700,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -703,7 +712,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,7 +754,8 @@
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b" />
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b root" />
     <MESSAGE value="Set mongoDB: heroku_s3vn5v6b correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set mongoDB: heroku_s3vn5v6b correct" />
+    <MESSAGE value="Set mongoDB: heroku_s3vn5v6b add port" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set mongoDB: heroku_s3vn5v6b add port" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -788,6 +797,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,6 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,6 +813,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504957233344" expanded="true" signature="0:39" ph="/*...*/" />
+            <marker date="1504957233344" expanded="true" signature="107:186" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,6 +839,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -840,6 +856,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="175" column="6" lean-forward="false" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+          <folding>
+            <marker date="1504958397429" expanded="true" signature="1090:1587" ph="/** @fileOverview The **Server** class is a class that represents a single server topology and is ...*/" />
+            <marker date="1504958397429" expanded="true" signature="1636:2154" ph="[...]" />
+            <marker date="1504958397429" expanded="true" signature="2157:5376" ph="/** Creates a new Server instance ...*/" />
+            <marker date="1504958397429" expanded="true" signature="5420:8530" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="5688:5820" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="5984:6086" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="6034:6082" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="6109:6193" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="6471:6733" ph="{&quot;host&quot;: host...}" />
+            <marker date="1504958397429" expanded="true" signature="7184:7315" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="7375:7590" ph="{&quot;platform&quot;: nodejsversion...}" />
+            <marker date="1504958397429" expanded="true" signature="7389:7447" ph="{&quot;name&quot;: &quot;nodejs&quot;...}" />
+            <marker date="1504958397429" expanded="true" signature="7457:7557" ph="{&quot;name&quot;: name...}" />
+            <marker date="1504958397429" expanded="true" signature="7745:7820" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="7976:8528" ph="{&quot;server&quot;: server...}" />
+            <marker date="1504958397429" expanded="true" signature="8697:8775" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="8735:8773" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="8851:8936" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="8888:8934" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="8994:9075" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9031:9073" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9148:9233" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9294:9361" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9413:9475" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9527:9589" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="9664:13676" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10033:10473" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10060:10469" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10180:10250" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10358:10390" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10402:10463" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10532:10638" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10559:10634" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10588:10628" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10695:10762" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10831:10904" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="10989:11020" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11073:11152" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11106:11148" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11209:11882" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11328:11378" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11745:11780" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11792:11878" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="11930:12061" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="12116:12360" ph="[...]" />
+            <marker date="1504958397429" expanded="true" signature="12381:12427" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="13744:13969" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="14148:14223" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="14363:14418" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="14557:14612" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="14751:14806" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="14929:14970" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15014:15055" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15210:15306" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15469:15511" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15513:15552" ph="/** Unref all sockets ...*/" />
+            <marker date="1504958397429" expanded="true" signature="15589:15617" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15666:15845" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15767:15843" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="15946:16053" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="16154:16263" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="16329:16389" ph="/** All raw connections ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16432:16473" ph="{...}" />
+            <marker date="1504958397429" expanded="true" signature="16562:16639" ph="/** Server connect event ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16641:16714" ph="/** Server close event ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16716:16797" ph="/** Server reconnect event ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16799:16876" ph="/** Server error event ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16878:16955" ph="/** Server timeout event ...*/" />
+            <marker date="1504958397429" expanded="true" signature="16957:17040" ph="/** Server parseError event ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +934,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <marker date="1504958397261" expanded="true" signature="113:263" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="125:226" ph="{&quot;replSet&quot;: 'rs'...}" />
+            <marker date="1504958397261" expanded="true" signature="238:261" ph="{&quot;replSet&quot;: 'rs'...}" />
+            <marker date="1504958397261" expanded="true" signature="297:612" ph="[...]" />
+            <marker date="1504958397261" expanded="true" signature="298:401" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="311:399" ph="{&quot;bind_ip&quot;: 'localhost'...}" />
+            <marker date="1504958397261" expanded="true" signature="403:506" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="416:504" ph="{&quot;bind_ip&quot;: 'localhost'...}" />
+            <marker date="1504958397261" expanded="true" signature="508:611" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="521:609" ph="{&quot;bind_ip&quot;: 'localhost'...}" />
+            <marker date="1504958397261" expanded="true" signature="690:788" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="728:786" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="948:1143" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="1016:1042" ph="{...}" />
+            <marker date="1504958397261" expanded="true" signature="1062:1139" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -863,6 +967,181 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13968">
           <caret line="776" column="0" lean-forward="false" selection-start-line="776" selection-start-column="0" selection-end-line="776" selection-end-column="0" />
+          <folding>
+            <marker date="1504958397367" expanded="true" signature="583:1685" ph="/** @fileOverview The **Cursor** class is an internal class that embodies a cursor on MongoDB ...*/" />
+            <marker date="1504958397367" expanded="true" signature="1687:1794" ph="/** Namespace provided by the mongodb-core and node.js ...*/" />
+            <marker date="1504958397367" expanded="true" signature="2012:4687" ph="/** Creates a new Cursor instance (INTERNAL TYPE, do not instantiate directly) ...*/" />
+            <marker date="1504958397367" expanded="true" signature="4761:6516" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="5245:5364" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="5460:6061" ph="{&quot;numberOfRetries&quot;: numberOfRetries...}" />
+            <marker date="1504958397367" expanded="true" signature="6133:6187" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="6518:6636" ph="/** Cursor stream data event, fired for each document in the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="6638:6712" ph="/** Cursor stream end event ...*/" />
+            <marker date="1504958397367" expanded="true" signature="6714:6792" ph="/** Cursor stream close event ...*/" />
+            <marker date="1504958397367" expanded="true" signature="6794:6878" ph="/** Cursor stream readable event ...*/" />
+            <marker date="1504958397367" expanded="true" signature="7085:7143" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7211:7442" ph="/** Check if there is any document still available in the cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="7489:8261" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7575:7832" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7602:7644" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7650:7828" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7701:7820" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7917:8257" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7944:7972" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="7978:8253" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="8022:8245" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="8327:8595" ph="/** Get the next available document from the cursor, returns null if no more documents are available. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="8639:9379" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="8725:8995" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="8814:8922" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="9080:9375" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="9169:9270" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="9310:9369" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="9442:9569" ph="/** Set the cursor query ...*/" />
+            <marker date="1504958397367" expanded="true" signature="9613:9813" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="9899:10084" ph="/** Set the cursor maxScan ...*/" />
+            <marker date="1504958397367" expanded="true" signature="10130:10333" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="10420:10590" ph="/** Set the cursor hint ...*/" />
+            <marker date="1504958397367" expanded="true" signature="10630:10827" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="10911:11196" ph="/** Set the cursor min ...*/" />
+            <marker date="1504958397367" expanded="true" signature="11234:11429" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="11512:11797" ph="/** Set the cursor max ...*/" />
+            <marker date="1504958397367" expanded="true" signature="11835:12030" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="12113:12456" ph="/** Set the cursor returnKey ...*/" />
+            <marker date="1504958397367" expanded="true" signature="12502:12705" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="12794:13045" ph="/** Set the cursor showRecordId ...*/" />
+            <marker date="1504958397367" expanded="true" signature="13094:13299" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="13391:13642" ph="/** Set the cursor snapshot ...*/" />
+            <marker date="1504958397367" expanded="true" signature="13687:13889" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="13977:14217" ph="/** Set a node.js specific cursor option ...*/" />
+            <marker date="1504958397367" expanded="true" signature="14276:14689" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="14784:15069" ph="/** Add a cursor flag to the cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="15125:15582" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="15675:15916" ph="/** Add a query modifier to the cursor query ...*/" />
+            <marker date="1504958397367" expanded="true" signature="15975:16461" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="16557:16763" ph="/** Add a comment to the cursor query allowing for tracking the comment in the log. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="16807:17008" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="17095:17423" ph="/** Set a maxAwaitTimeMS on a tailing cursor query to allow to customize the timeout value for the option awaitData (Only supported on MongoDB 3.2 or higher, ignored otherwise) ...*/" />
+            <marker date="1504958397367" expanded="true" signature="17474:17797" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="17891:18162" ph="/** Set a maxTimeMS on the cursor query, allowing for hard timeout limits on queries (Only supported on MongoDB 2.6 or higher) ...*/" />
+            <marker date="1504958397367" expanded="true" signature="18208:18521" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="18755:18913" ph="/** Sets a field projection for the query. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="18957:19157" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="19244:19499" ph="/** Sets the sort order of the cursor query. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="19555:20610" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="19860:19957" ph="//..." />
+            <marker date="1504958397367" expanded="true" signature="20012:20470" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20056:20463" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20114:20145" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20170:20202" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20236:20270" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20276:20436" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20496:20539" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="20694:20849" ph="/** Set the batch size for the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="20895:21338" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="21427:21688" ph="/** Set the collation options for the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="21734:21784" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="21873:22025" ph="/** Set the limit for the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="22067:22556" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="22641:22791" ph="/** Set the skip for the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="22832:23286" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="23370:23640" ph="/** The callback format for results ...*/" />
+            <marker date="1504958397367" expanded="true" signature="23642:23728" ph="/** Clone the cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="23730:23816" ph="/** Resets the cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="23818:24101" ph="/** Get the next available document from the cursor, returns null if no more documents are available. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="24198:24755" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="24417:24564" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="24427:24497" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="24509:24560" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="24623:24751" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="24824:24918" ph="//..." />
+            <marker date="1504958397367" expanded="true" signature="24955:25105" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="25222:25849" ph="/** Iterates over all the documents for this cursor. As with **{cursor.toArray}**, ...*/" />
+            <marker date="1504958397367" expanded="true" signature="25893:26044" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26167:27059" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26344:26449" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26644:26733" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26739:27057" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26775:27052" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="26852:26952" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="27061:27220" ph="/** The callback format for the forEach iterator method ...*/" />
+            <marker date="1504958397367" expanded="true" signature="27222:27414" ph="/** The callback error format for the forEach iterator method ...*/" />
+            <marker date="1504958397367" expanded="true" signature="27416:27692" ph="/** Iterates over all the documents for this cursor using the iterator, callback pattern. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="27749:28039" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="27781:28035" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="27912:28031" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="28106:28301" ph="/** Set the ReadPreference for the cursor. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="28351:28869" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="28540:28667" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="28697:28765" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="28807:28851" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="28966:29215" ph="/** The callback format for results ...*/" />
+            <marker date="1504958397367" expanded="true" signature="29217:29684" ph="/** Returns an array of documents. The caller is responsible for making sure that there ...*/" />
+            <marker date="1504958397367" expanded="true" signature="29731:30166" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30060:30162" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30097:30156" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30207:31064" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30352:31046" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30388:31041" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30464:30565" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30685:30990" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="30887:30948" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="31130:31353" ph="/** The callback format for results ...*/" />
+            <marker date="1504958397367" expanded="true" signature="31355:32316" ph="/** Get the count of documents for this cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="32383:32936" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="32810:32932" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="32867:32926" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="32998:34317" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33042:33105" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33128:33288" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33362:33437" ph="{&quot;query&quot;: self.s.cmd.query...}" />
+            <marker date="1504958397367" expanded="true" signature="33500:33555" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33604:33645" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33687:33732" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="33796:33847" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="34239:34299" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="34381:34594" ph="/** Close the cursor, sending a KillCursor command and emitting close. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="34639:34978" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="34954:34974" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="35042:35197" ph="/** Map all documents using the provided function ...*/" />
+            <marker date="1504958397367" expanded="true" signature="35241:35550" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="35312:35468" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="35474:35533" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="35633:35696" ph="/** Is the cursor closed ...*/" />
+            <marker date="1504958397367" expanded="true" signature="35736:35763" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="35893:35963" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="36031:36316" ph="/** Return a modified Readable stream including a possible transform method. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="36361:36419" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="36505:36686" ph="/** Execute the explain for the cursor ...*/" />
+            <marker date="1504958397367" expanded="true" signature="36733:37168" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="36843:36886" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37065:37164" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37099:37158" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37270:38175" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37344:37377" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37442:38171" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37456:37700" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37530:37572" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="37826:37897" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38046:38118" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38235:38377" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38274:38375" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38302:38328" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38434:38852" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38474:38850" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38502:38528" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38661:38744" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38676:38737" ph="{&quot;collection&quot;: ''...}" />
+            <marker date="1504958397367" expanded="true" signature="38756:38845" ph="{...}" />
+            <marker date="1504958397367" expanded="true" signature="38856:39150" ph="/** The read() method pulls some data out of the internal buffer and returns it. If there is no data available, then it will return null. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="39152:39382" ph="/** Call this function to cause the stream to return strings of the specified encoding instead of Buffer objects. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="39384:39525" ph="/** This method will cause the readable stream to resume emitting data events. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="39527:39738" ph="/** This method will cause a stream in flowing-mode to stop emitting data events. Any data that becomes available will remain in the internal buffer. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="39740:40114" ph="/** This method pulls all the data out of a readable stream, and writes it to the supplied destination, automatically managing the flow so that the destination is not overwhelmed by a fast readable stream. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="40116:40319" ph="/** This method will remove the hooks set up for a previous pipe() call. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="40321:40694" ph="/** This is useful in certain cases where a stream is being consumed by a parser, which needs to &quot;un-consume&quot; some data that it has optimistically pulled out of the source, so that the stream can be passed on to some other party. ...*/" />
+            <marker date="1504958397367" expanded="true" signature="40696:40974" ph="/** Versions of Node prior to v0.10 had streams that did not implement the entire Streams API as it is today. (See &quot;Compatibility&quot; below for more information.) ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -930,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -970,8 +1242,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/default.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="18">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <marker date="1504987255963" expanded="true" signature="0:151" ph="mongodb: &lt;5 keys&gt;" />
+            <marker date="1504987255963" expanded="true" signature="21:38" ph="ds163561.mlab.com" />
+            <marker date="1504987255963" expanded="true" signature="51:56" ph="63561" />
+            <marker date="1504987255963" expanded="true" signature="69:84" ph="heroku_s3vn5v6b" />
+            <marker date="1504987255963" expanded="true" signature="97:112" ph="heroku_s3vn5v6b" />
+            <marker date="1504987255963" expanded="true" signature="125:151" ph="t9rerk01m…u4p6tjanq1" />
+            <marker date="1504987255963" expanded="true" signature="153:177" ph="server: &lt;1 key&gt;" />
+            <marker date="1504987255963" expanded="true" signature="173:177" ph="5000" />
+            <marker date="1504987255963" expanded="true" signature="188:192" ph="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>

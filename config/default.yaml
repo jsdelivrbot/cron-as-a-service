@@ -1,5 +1,6 @@
 mongodb:
   server:   ds163561.mlab.com
+  port:     63561
   database: heroku_s3vn5v6b
   user:     heroku_s3vn5v6b
   password: t9rerk01m7469mo8u4p6tjanq1

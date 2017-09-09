@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8bb0f91-52c8-47c0-a055-c819e9695108" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/default.yaml" afterPath="$PROJECT_DIR$/config/default.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="default.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/default.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="126">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -34,6 +35,8 @@
       <find>inde</find>
       <find>sys</find>
       <find>node</find>
+      <find>coo</find>
+      <find>port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,12 +53,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/default.yaml" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config/default.yaml" />
       </list>
     </option>
   </component>
@@ -114,25 +117,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron-as-a-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron-as-a-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,7 +535,7 @@
       <updated>1504957474419</updated>
       <workItem from="1504957476084" duration="1424000" />
       <workItem from="1504958916075" duration="2611000" />
-      <workItem from="1504962747557" duration="8110000" />
+      <workItem from="1504962747557" duration="9281000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawa zależności do poprawnego działania aplikacji">
       <created>1504971844904</created>
@@ -608,15 +593,22 @@
       <option name="project" value="LOCAL" />
       <updated>1504977997300</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change scripts (node app)">
+      <created>1504978711741</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504978711741</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12145000" />
+    <option name="totallyTimeSpent" value="13316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -662,7 +654,8 @@
     <MESSAGE value="Modified package.json &quot;/&quot;" />
     <MESSAGE value="Change node version" />
     <MESSAGE value="Change Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Procfile" />
+    <MESSAGE value="Change scripts (node app)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change scripts (node app)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1009,30 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/runtime.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/default.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <marker date="1504962457825" expanded="true" signature="0:76" ph="mongodb: &lt;4 keys&gt;" />
-            <marker date="1504962457825" expanded="true" signature="21:30" ph="localhost" />
-            <marker date="1504962457825" expanded="true" signature="43:47" ph="cron" />
-            <marker date="1504962457825" expanded="true" signature="60:64" ph="root" />
-            <marker date="1504962457825" expanded="true" signature="78:102" ph="server: &lt;1 key&gt;" />
-            <marker date="1504962457825" expanded="true" signature="98:102" ph="8082" />
-            <marker date="1504962457825" expanded="true" signature="113:117" ph="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/job.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1306,10 +1275,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <marker date="1504978692820" expanded="true" signature="0:753" ph="{&quot;name&quot;: &quot;cron-as-a-service&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="0:754" ph="{&quot;name&quot;: &quot;cron-as-a-service&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="142:167" ph="{&quot;node&quot;: &quot;4.4.3&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="212:265" ph="{&quot;start&quot;: &quot;node app&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="283:369" ph="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="385:457" ph="[...]" />
+            <marker date="1504978692820" expanded="true" signature="477:532" ph="{&quot;async&quot;: &quot;latest&quot;...}" />
+            <marker date="1504978692820" expanded="true" signature="477:751" ph="{&quot;async&quot;: &quot;latest&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="470">
+          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
           <folding>
             <marker date="1504964324908" expanded="true" signature="0:29" ph="/*...*/" />
             <marker date="1504964324908" expanded="true" signature="489:653" ph="{...}" />
@@ -1329,25 +1323,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/config/runtime.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <marker date="1504977126023" expanded="true" signature="0:755" ph="{&quot;name&quot;: &quot;cron-as-a-service&quot;...}" />
-            <marker date="1504977126023" expanded="true" signature="142:167" ph="{&quot;node&quot;: &quot;4.4.3&quot;...}" />
-            <marker date="1504977126023" expanded="true" signature="212:300" ph="{&quot;start&quot;: &quot;node app/api/node index.js&quot;...}" />
-            <marker date="1504977126023" expanded="true" signature="318:404" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1504977126023" expanded="true" signature="420:492" ph="[...]" />
-            <marker date="1504977126023" expanded="true" signature="512:753" ph="{&quot;async&quot;: &quot;latest&quot;...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/config/default.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        <state relative-caret-position="126">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 /*
  * Remote cron service
  */
+var port = process.env.PORT || 3000;
 var path     = require('path');
 const fs = require('fs');
 var config   = require('config');
@@ -73,5 +74,5 @@ fs.exists('./plugins/index.js', function(exists) {
   };
 });
 
-app.listen(config.server.port);
-console.log("Express server listening on port %d in %s mode", config.server.port, app.settings.env);
+app.listen(port);
+console.log("Express server listening on port %d in %s mode", port, app.settings.env);

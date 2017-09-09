@@ -8,8 +8,8 @@
   },
   "main": "app/api/index.js",
   "scripts": {
-    "start": "node app/api/node index.js",
-    "test": "node app/api/node test.js"
+    "start": "node app",
+    "test": "node app"
   },
   "repository": {
     "type": "git",

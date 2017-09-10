@@ -6,7 +6,7 @@
   "engines": {
     "node": "4.4.3"
   },
-  "main": "app/api/index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app",
     "test": "node app"

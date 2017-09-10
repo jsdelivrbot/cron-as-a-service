@@ -1,7 +1,7 @@
 /*
  * Remote cron service
  */
-var port = process.env.PORT || 3000;
+var port = process.env.PORT;
 var path     = require('path');
 const fs = require('fs');
 var config   = require('config');

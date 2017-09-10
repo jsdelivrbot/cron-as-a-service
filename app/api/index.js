@@ -1,7 +1,7 @@
 /**
  * Module dependencies.
  */
-var port = process.env.PORT || 3000;
+var port = process.env.PORT;
 var express    = require('express');
 var app = module.exports = express.createServer();
 
